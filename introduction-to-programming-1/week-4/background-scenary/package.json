@@ -1,0 +1,20 @@
+{
+  "name": "background-scenary-2",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "bun check",
+    "dev": "bun --hot ./index.html"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/p5": "^1.7.7"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "p5": "^2.3.4"
+  }
+}
